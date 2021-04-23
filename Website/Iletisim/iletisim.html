@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Yako Groups</title>
+    <link rel="stylesheet" href="iletisim.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="https://www.fitnesstanbull.com/" target="_blank"><img src="../images/yako logo.png" width="140" height="80" title="Fıtnesstanbul Logo" alt="Fitnesstanbul Logo">
+                </a>
+           </div>
+            <ul>
+                <li><a href="../index.html" onclick="firstFunction()" ><i class="fas fa-home"></i>Ana Sayfa</a></li>
+                <li><a href="../Hakkimizda/hakkimizda.html"><i class="fas fa-user"></i>Hakkımızda</a></li>
+                <li><a href="../Galeri/galeri.html"><i class="fas fa-photo-video"></i>Galeri</a> </li>
+                <li><a href="../Blog/blog.html"><i class="fas fa-blog"></i>Blog</a></li>
+                <li><a href="../References/references.html"><i class="fas fa-asterisk"></i>Referanslar</a></li>
+                <li><a href="/Iletisim/iletisim.html" class="active"><i class="fas fa-phone"></i>İletişim</a></li>
+                <li><a href="#"> <i class="fas fa-caret-down"></i>Servisler</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="https://www.yakogroups.com/portfolio-item/yako-mice/">Mice</a></li>
+                            <li><a href="https://www.yakogroups.com/portfolio-item/reaksiyon-aktivite/">Aktivite</a></li>
+                            <li><a href="https://www.yakogroups.com/portfolio-item/yako-digital-solutions/">Dijital</a></li>
+                        </ul>
+                    </div>
+                    </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <main>
+        <h1>İletişim</h1>
+        <div class="contain">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.972420757147!2d29.266615215420632!3d41.13512801955824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409fd723e0e42f63%3A0x9dfc7d4b5e4a4c1d!2sYako%20House%26Park%20-%20Tiny%20House%20T%C3%BCrkiye!5e0!3m2!1str!2str!4v1615715280102!5m2!1str!2str"
+         width="" height="" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+         <form action="#">
+             <label for="fname">Adınız</label>
+             <input type="text" name="adınız" id="fname" placeholder="Adınız..">
+
+             <label for="lname">Soyadınız</label>
+             <input type="text" name="soyadınız" id="lname" placeholder="Soyadınız..">
+
+             <p>Lütfen Cinsiyetinizi Seçiniz:</p><br>
+             <div>
+                <input type="radio" id="male"
+                 name="gender" value="male">
+                <label for="male">Erkek</label>
+            
+                <input type="radio" id="female"
+                 name="gender" value="female">
+                <label for="female">Kadın</label>
+            
+                <input type="radio" id="other"
+                 name="gender" value="other">
+                <label for="other">Diğer</label>
+              </div><br>
+              <p>Lütfen Sahip Olduğunuz Araçları Seçiniz</p><br>
+              <div>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Bisiklet</label>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Motosiklet</label>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> Araba</label>
+              </div><br>
+             <label for="mesajınız">Mesajınız</label>
+             <textarea name="mesajınız" id="mesajınız" placeholder="Mesajınızı Yazınız.." style="height: 200px;"></textarea>
+
+             <input type="gönder" value="Gönder">
+         </form>
+        </div>
+    </main>
+    
+
+</body> 
+</html> 

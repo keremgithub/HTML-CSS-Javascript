@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+
+.container .navbar {
+    width: 100%;
+    height: 90px;
+    background: rgba(72, 101, 134, 0.4)
+}
+
+.navbar .logo {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    padding: 8px;
+    line-height: 80px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .5s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #ff6e00;
+    border-radius: 2px;
+}
+
+.navbar .fas {
+    margin-right: 8px;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.navbar ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background: rgba(72, 101, 134, 0.4);
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.navbar ul li:hover .sub-menu ul {
+    display: block;
+}
+.navbar ul li:hover .sub-menu ul li {
+    width: 80px;
+    padding: 5px;
+    border-bottom: 1px dotted;
+    background: transparent;
+    text-align: left;
+    border-radius: 0;    
+}
+
+
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-top: 20px;
+}
+
+.referans {
+    width: 31%;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+
+.refResim {
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    opacity: 0.6;
+    transition: opacity 0.8s;
+}
+
+.refResim:hover {
+    opacity: 1;
+}
+
+.refBaslik {
+    width: 100%;
+    height: 45px;
+    margin-top: -5px;
+    font-size: 20px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    line-height: 45px;
+    background-color: #f1f1f1;
+}
+
+.refDetay {
+    text-align: center;
+    
+}
